@@ -33,7 +33,7 @@ output:
  path "GSEA_reports"  ,emit:g_0_outputFile00 
  path "GSEA"  ,emit:g_0_outputFile11 
 
-container 'quay.io/viascientific/gsea_module:1.0.0'
+container 'quay.io/ummsbiocore/gsea_module:1.0.0'
 
 // SET second output to "{GSEA,outputs}" when launched apps can reach parent directory
 
